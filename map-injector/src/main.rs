@@ -1,5 +1,4 @@
 //! Improved Injector using NtMapViewOfSection
-//! Based on the working technique from injector_poly.c
 
 use anyhow::{Result, bail};
 use clap::Parser;
