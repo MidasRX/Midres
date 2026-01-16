@@ -1,0 +1,38 @@
+# Build artifacts
+/target/
+*.exe
+*.bin
+*.dll
+*.pdb
+*.obj
+*.o
+Cargo.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test files
+test_*.exe
+*_test.exe
+check_*.exe
+debug_*.exe
+
+# Generated shellcode
+*.sc
+shellcode.bin
+output.bin
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+*.backup

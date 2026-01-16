@@ -1,0 +1,30 @@
+[package]
+name = "midres-gen"
+version = "1.0.0"
+edition = "2021"
+description = "Advanced shellcode generator in Rust"
+
+[[bin]]
+name = "midres"
+path = "src/main.rs"
+
+[dependencies]
+midres-common = { path = "../midres-common" }
+clap = { version = "4.4", features = ["derive"] }
+anyhow = "1.0"
+thiserror = "1.0"
+rand = "0.8"
+chacha20poly1305 = "0.10"
+base64 = "0.21"
+hex = "0.4"
+lz4_flex = "0.11"
+zstd = "0.13"
+goblin = "0.8"
+scroll = "0.12"
+uuid = { version = "1.6", features = ["v4"] }
+sha2 = "0.10"
+colored = "2.1"
+indicatif = "0.17"
+
+[dev-dependencies]
+tempfile = "3.8"
